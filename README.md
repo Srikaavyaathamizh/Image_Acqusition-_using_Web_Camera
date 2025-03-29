@@ -24,12 +24,12 @@ Import CV2,numpy and the other required libraries
 <br>Rotate the captured image by 180*</br>
 
 ## Program:
-``` Python
+```
 ### Developed By: Srikaavyaa T
 ### Register No: 212223230214
 
 ## i) Write the frame as JPG file
-```
+
 import cv2
 obj = cv2.VideoCapture(0)
 while True:
@@ -43,9 +43,8 @@ while True:
 obj.release()
 cv2.destroyAllWindows()
 
-```
 ## ii) Display the video
-```
+
 img = cv2.VideoCapture(0)
 while True:
     image,frame = img.read()
@@ -55,10 +54,8 @@ while True:
 img.release()
 cv2.destroyAllWindows()
 
-```
-
 ## iii) Display the video by resizing the window
-```
+
 import numpy as np
 capture = cv2.VideoCapture(0)
 while True:
@@ -80,12 +77,8 @@ while True:
 capture.release()
 cv2.destroyAllWindows()
 
-```
-
-
-
 ## iv) Rotate and display the video
-```
+
 capture = cv2.VideoCapture(0)
 while True:
     ret,frame=capture.read()
@@ -112,10 +105,6 @@ cv2.destroyAllWindows()
 
 
 
-
-
-
-```
 ## Output
 
 ### i) Write the frame as JPG image
